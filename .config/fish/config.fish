@@ -3,6 +3,8 @@ if status is-interactive
 end
 
 fish_add_path /opt/homebrew/bin
+eval "$(devbox global shellenv)"
+mise activate fish | source
 
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
@@ -14,6 +16,5 @@ set --export PATH $PATH "$(go env GOPATH)/bin"
 
 set LESS -Rx4
 
-eval "$(fnm env --use-on-cd)"
-
 starship init fish | source
+zoxide init fish | source
