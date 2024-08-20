@@ -108,8 +108,8 @@ alt-shift-l = 'move right'
 alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
-alt-right = 'workspace next'
-alt-left = 'workspace prev'
+cmd-right = 'workspace next'
+cmd-left = 'workspace prev'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 alt-1 = 'workspace 1'
