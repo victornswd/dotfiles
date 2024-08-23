@@ -34,7 +34,13 @@
     "bottom@latest",
     "git@latest",
     "mise@latest",
-    "hyfetch@latest"
+    "hyfetch@latest",
+    "riffdiff@latest",
+    "xcp@latest",
+    "air@latest",
+    "templ@latest",
+    "glow@latest",
+    "shfmt@latest"
   ],
   "shell": {
     "init_hook": [
