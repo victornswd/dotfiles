@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+
+[user]
+	name = Victor Ionescu
+	email = dsign.victor@gmail.com
+
+[pager]
+	diff = riff
+
+[interactive]
+	diffFilter = riff
+
+[core]
+	excludesfile = /Users/wrk/.gitignore_global
