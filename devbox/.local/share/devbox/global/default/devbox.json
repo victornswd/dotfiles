@@ -1,55 +1,55 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
-  "packages": [
-    "go@latest",
-    "rustup@latest",
-    "cargo@latest",
-    "oha@latest",
-    "neofetch@latest",
-    "hugo@latest",
-    "lazygit@latest",
-    "ripgrep@latest",
-    "github:nix-community/neovim-nightly-overlay",
-    "imagemagick@latest",
-    "podman@latest",
-    "jq@latest",
-    "difftastic@latest",
-    "asciinema@latest",
-    "bat@latest",
-    "starship@latest",
-    "stow@latest",
-    "tree-sitter@latest",
-    "fish@latest",
-    "ffmpeg@latest",
-    "fzf@latest",
-    "lf@latest",
-    "ag@latest",
-    "zoxide@latest",
-    "sqld@latest",
-    "turso-cli@latest",
-    "exa@latest",
-    "tig@latest",
-    "fd@latest",
-    "shellcheck@latest",
-    "bottom@latest",
-    "git@latest",
-    "mise@latest",
-    "hyfetch@latest",
-    "riffdiff@latest",
-    "xcp@latest",
-    "air@latest",
-    "templ@latest",
-    "glow@latest",
-    "shfmt@latest"
-  ],
-  "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
-    "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
-    }
-  }
+	"$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+	"packages": [
+		"go@latest",
+		"rustup@latest",
+		"cargo@latest",
+		"oha@latest",
+		"neofetch@latest",
+		"hugo@latest",
+		"lazygit@latest",
+		"ripgrep@latest",
+		"imagemagick@latest",
+		"podman@latest",
+		"jq@latest",
+		"difftastic@latest",
+		"asciinema@latest",
+		"bat@latest",
+		"starship@latest",
+		"stow@latest",
+		"tree-sitter@latest",
+		"fish@latest",
+		"ffmpeg@latest",
+		"fzf@latest",
+		"lf@latest",
+		"ag@latest",
+		"zoxide@latest",
+		"turso-cli@latest",
+		"exa@latest",
+		"tig@latest",
+		"fd@latest",
+		"shellcheck@latest",
+		"bottom@latest",
+		"git@latest",
+		"mise@latest",
+		"hyfetch@latest",
+		"riffdiff@latest",
+		"xcp@latest",
+		"air@latest",
+		"templ@latest",
+		"glow@latest",
+		"shfmt@latest",
+		"sqld@0.17.2",
+		"github:nix-community/neovim-nightly-overlay"
+	],
+	"shell": {
+		"init_hook": [
+			"echo 'Welcome to devbox!' > /dev/null"
+		],
+		"scripts": {
+			"test": [
+				"echo \"Error: no test specified\" && exit 1"
+			]
+		}
+	}
 }
