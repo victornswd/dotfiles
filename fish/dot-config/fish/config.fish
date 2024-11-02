@@ -18,3 +18,5 @@ set LESS -Rx4
 
 starship init fish | source
 zoxide init fish | source
+abbr --add devbox-clean "devbox run -- nix store gc --extra-experimental-features nix-command"
+abbr --add cd z
