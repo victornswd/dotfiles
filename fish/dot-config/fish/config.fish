@@ -18,5 +18,15 @@ set LESS -Rx4
 
 starship init fish | source
 zoxide init fish | source
-abbr --add devbox-clean "devbox run -- nix store gc --extra-experimental-features nix-command"
-abbr --add cd z
+
+alias n "env TERM=wezterm nvim"
+alias nnn "cd ~/Documents/dev/nvim && env TERM=wezterm nvim"
+
+alias cd z
+alias cp xcp
+alias cat bat
+alias ls eza
+alias la "eza -la"
+alias ll "eza -l"
+
+alias devbox-clean "devbox run -- nix store gc --extra-experimental-features nix-command"
