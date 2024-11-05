@@ -3,16 +3,11 @@ if status is-interactive
 end
 
 fish_add_path /opt/homebrew/bin
-eval "$(devbox global shellenv)"
+devbox global shellenv --init-hook | source
 mise activate fish | source
 
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH
-
-set --export PNPM_HOME "/Users/wrk/Library/pnpm"
-set --export PATH $PNPM_HOME $PATH
-
-set --export PATH $PATH "$(go env GOPATH)/bin"
+set -x GOPATH (go env GOPATH)
+set -x PATH $PATH (go env GOPATH)/bin
 
 set LESS -Rx4
 
