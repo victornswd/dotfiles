@@ -25,7 +25,6 @@
     "ag@latest",
     "zoxide@latest",
     "turso-cli@latest",
-    "exa@latest",
     "tig@latest",
     "fd@latest",
     "shellcheck@latest",
@@ -41,7 +40,8 @@
     "shfmt@latest",
     "github:nix-community/neovim-nightly-overlay",
     "sqld@0.17.2",
-    "mediainfo@latest"
+    "mediainfo@latest",
+    "eza@latest"
   ],
   "shell": {
     "init_hook": [
