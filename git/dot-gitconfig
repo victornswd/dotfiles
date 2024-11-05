@@ -9,9 +9,11 @@
 
 [pager]
 	diff = riff
+	show = riff
+	log = riff
 
 [interactive]
-	diffFilter = riff
+	diffFilter = riff --color=on
 
 [core]
 	excludesfile = /Users/wrk/.gitignore_global
