@@ -1,0 +1,54 @@
+# Keybinds
+# keybind = ctrl+z=close_surface
+# keybind = ctrl+d=new_split:right
+keybind = super+shift+r=reload_config
+
+# Font stuff
+font-family = "Maple Mono NF"
+font-size = 16
+adjust-cell-width = -3%
+
+# Theme
+window-colorspace = display-p3
+window-save-state = always
+
+background = 272e33
+foreground = d3c6aa
+cursor-color = e69875
+selection-background = 4c3743
+selection-foreground = d3c6aa
+# black
+palette = 0=#414b50
+palette = 8=#475258
+# red
+palette = 1=#e67e80
+palette = 9=#e67e80
+# green
+palette = 2=#a7c080
+palette = 10=#a7c080
+# yellow
+palette = 3=#dbbc7f
+palette = 11=#dbbc7f
+# blue
+palette = 4=#7fbbb3
+palette = 12=#7fbbb3
+# purple
+palette = 5=#d699b6
+palette = 13=#d699b6
+# aqua
+palette = 6=#83c092
+palette = 14=#83c092
+# white
+palette = 7=#d3c6aa
+palette = 15=#d3c6aa
+
+# Others
+shell-integration = fish
+shell-integration-features = sudo
+
+copy-on-select = clipboard
+quit-after-last-window-closed = true
+
+macos-option-as-alt = true
+macos-window-shadow = false
+cursor-style = block
