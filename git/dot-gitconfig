@@ -17,3 +17,5 @@
 
 [core]
 	excludesfile = /Users/wrk/.gitignore_global
+[init]
+	defaultBranch = main
