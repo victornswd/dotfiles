@@ -20,8 +20,8 @@ alias nnn "cd ~/Documents/dev/nvim && env TERM=wezterm nvim"
 alias cd z
 alias cp xcp
 alias cat bat
-alias ls eza
-alias la "eza -la"
-alias ll "eza -l"
+alias ls "eza --icons=always"
+alias la "eza --icons=always -la"
+alias ll "eza --icons=always -l"
 
 alias devbox-clean "devbox run -- nix store gc --extra-experimental-features nix-command"
