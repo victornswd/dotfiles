@@ -10,7 +10,6 @@
     "lazygit@latest",
     "ripgrep@latest",
     "imagemagick@latest",
-    "podman@latest",
     "jq@latest",
     "difftastic@latest",
     "asciinema@latest",
@@ -39,9 +38,12 @@
     "glow@latest",
     "shfmt@latest",
     "github:nix-community/neovim-nightly-overlay",
-    "sqld@0.17.2",
     "mediainfo@latest",
-    "eza@latest"
+    "eza@latest",
+    "sqld@0.24.18",
+    "sqlc@latest",
+    "dotenvx@latest",
+    "xcaddy@latest"
   ],
   "shell": {
     "init_hook": [
