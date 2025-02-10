@@ -43,7 +43,10 @@
     "sqld@0.24.18",
     "sqlc@latest",
     "dotenvx@latest",
-    "xcaddy@latest"
+    "xcaddy@latest",
+    "zig@latest",
+    "podman@latest",
+    "podman-compose@latest"
   ],
   "shell": {
     "init_hook": [
