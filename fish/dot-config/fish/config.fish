@@ -26,7 +26,8 @@ mise activate fish | source
 set -x GOPATH (go env GOPATH)
 set -x PATH $PATH (go env GOPATH)/bin
 
-set LESS -Rx4
+set LESS -R
+set DELTA_PAGER "less -R"
 
 starship init fish | source
 zoxide init fish | source
