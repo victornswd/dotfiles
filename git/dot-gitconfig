@@ -7,15 +7,25 @@
 	name = Victor Ionescu
 	email = dsign.victor@gmail.com
 
-[pager]
-	diff = riff
-	show = riff
-	log = riff
-
-[interactive]
-	diffFilter = riff --color=on
+[include]
+    path = ~/dotfiles/git/themes.gitconfig
 
 [core]
 	excludesfile = /Users/wrk/.gitignore_global
+	pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+		line-numbers = true
+		true-color = always
+		features = mellow-barbet
+		side-by-side = false
+
+[merge]
+    conflictstyle = zdiff3
+
 [init]
 	defaultBranch = main
